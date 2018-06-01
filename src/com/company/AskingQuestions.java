@@ -12,6 +12,7 @@ public class AskingQuestions
 
         System.out.print( "First temperature? " );
         num1 = keyboard.nextDouble();
+        keyboard.nextLine();
 
         System.out.print( "Second temperature? " );
         num2 = keyboard.nextDouble();
